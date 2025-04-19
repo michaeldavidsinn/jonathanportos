@@ -83,7 +83,9 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div
         className={`sm:text-xl sm:leading-snug text-center ${
-          expanded || !expanded ? "bg-white text-black" : "neo-brutalism-blue text-white"
+          expanded || !expanded
+            ? "bg-white text-black"
+            : "neo-brutalism-blue text-white"
         } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
           expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
         } relative`}
@@ -95,7 +97,7 @@ const HomeInfo = ({ currentStage }) => {
         >
           Yucca AI
         </p>
-  
+
         {!expanded && (
           <button
             onClick={() => setExpanded(true)}
@@ -104,7 +106,7 @@ const HomeInfo = ({ currentStage }) => {
             View details
           </button>
         )}
-  
+
         {expanded && (
           <>
             {/* Icon in the top-right corner */}
@@ -113,7 +115,7 @@ const HomeInfo = ({ currentStage }) => {
               alt="Blender Icon"
               className="absolute top-0 right-0 w-16 h-16 object-contain mt-4 mr-4"
             />
-  
+
             {/* Main content: video and description */}
             <div className="mt-4 flex flex-col sm:flex-row items-start text-left gap-4">
               {/* Video */}
@@ -128,7 +130,7 @@ const HomeInfo = ({ currentStage }) => {
                   </video>
                 </div>
               </div>
-  
+
               {/* Description Text */}
               <div className="w-full sm:w-2/3 space-y-3">
                 <p className="text-sm leading-relaxed">
@@ -140,15 +142,15 @@ const HomeInfo = ({ currentStage }) => {
                   experience by making the interface more engaging and
                   responsive.
                 </p>
-  
+
                 <div className="h-3" />
-  
+
                 {/* Project Information */}
                 <div className="flex items-center space-x-4">
                   {/* Text Information */}
                   <div className="w-full sm:w-2/3 space-y-2">
                     <div className="h-1" />
-  
+
                     <div className="text-sm leading-relaxed space-y-1">
                       <p>
                         <span className="font-bold">Client:</span> IT Yucca AI
@@ -174,7 +176,7 @@ const HomeInfo = ({ currentStage }) => {
                       </p>
                     </div>
                   </div>
-  
+
                   {/* Image on the right */}
                   <div className="w-1/3">
                     <img
@@ -184,9 +186,9 @@ const HomeInfo = ({ currentStage }) => {
                     />
                   </div>
                 </div>
-  
+
                 <div className="h-3" />
-  
+
                 <div className="flex space-x-4">
                   <img
                     src={yucca1}
@@ -211,7 +213,7 @@ const HomeInfo = ({ currentStage }) => {
                 </div>
               </div>
             </div>
-  
+
             {/* Hide Details Button */}
             <div className="mt-4 flex justify-end">
               <button
@@ -231,7 +233,9 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div
         className={`sm:text-xl sm:leading-snug text-center ${
-          expanded || !expanded ? "bg-white text-black" : "neo-brutalism-blue text-white"
+          expanded || !expanded
+            ? "bg-white text-black"
+            : "neo-brutalism-blue text-white"
         } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
           expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
         } relative`}
@@ -375,17 +379,19 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 4) {
     return (
       <div
-      className={`sm:text-xl sm:leading-snug text-center ${
-        expanded || !expanded ? "bg-white text-black" : "neo-brutalism-blue text-white"
-      } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
-        expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
-      } relative`}
-    >
-      <p
-        className={`font-semibold mx-2 ${
-          expanded || !expanded ? "text-black mb-4" : "text-white"
-        }`}
+        className={`sm:text-xl sm:leading-snug text-center ${
+          expanded || !expanded
+            ? "bg-white text-black"
+            : "neo-brutalism-blue text-white"
+        } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
+          expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
+        } relative`}
       >
+        <p
+          className={`font-semibold mx-2 ${
+            expanded || !expanded ? "text-black mb-4" : "text-white"
+          }`}
+        >
           Fredericia Chair
         </p>
 
@@ -519,7 +525,9 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div
         className={`sm:text-xl sm:leading-snug text-center ${
-          expanded || !expanded ? "bg-white text-black" : "neo-brutalism-blue text-white"
+          expanded || !expanded
+            ? "bg-white text-black"
+            : "neo-brutalism-blue text-white"
         } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
           expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
         } relative`}
@@ -660,7 +668,9 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div
         className={`sm:text-xl sm:leading-snug text-center ${
-          expanded || !expanded ? "bg-white text-black" : "neo-brutalism-blue text-white"
+          expanded || !expanded
+            ? "bg-white text-black"
+            : "neo-brutalism-blue text-white"
         } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
           expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
         } relative`}
@@ -777,14 +787,16 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div
         className={`sm:text-xl sm:leading-snug text-center ${
-          expanded || !expanded ? "bg-white text-black" : "neo-brutalism-blue text-white"
+          expanded || !expanded
+            ? "bg-white text-black"
+            : "neo-brutalism-blue text-white"
         } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
           expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
         } relative`}
       >
         <p
           className={`font-semibold mx-2 ${
-            expanded || !expanded ? "text-black mb-4" : "text-white"
+            expanded ? "text-black mb-10" : "text-black"
           }`}
         >
           Plague Doctor
@@ -907,14 +919,16 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div
         className={`sm:text-xl sm:leading-snug text-center ${
-          expanded || !expanded ? "bg-white text-black" : "neo-brutalism-blue text-white"
+          expanded || !expanded
+            ? "bg-white text-black"
+            : "neo-brutalism-blue text-white"
         } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
           expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
         } relative`}
       >
         <p
           className={`font-semibold mx-2 ${
-            expanded || !expanded ? "text-black mb-4" : "text-white"
+            expanded ? "text-black mb-16" : "text-black"
           }`}
         >
           Journey to Art & Craft
@@ -993,7 +1007,8 @@ const HomeInfo = ({ currentStage }) => {
                         Project
                       </p>
                       <p>
-                        <span className="font-bold">Job Desk:</span> Animator, Editor
+                        <span className="font-bold">Job Desk:</span> Animator,
+                        Editor
                       </p>
                       <p>
                         <span className="font-bold">Project:</span> 2023
@@ -1058,17 +1073,19 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 9) {
     return (
       <div
-      className={`sm:text-xl sm:leading-snug text-center ${
-        expanded || !expanded ? "bg-white text-black" : "neo-brutalism-blue text-white"
-      } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
-        expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
-      } relative`}
-    >
-      <p
-        className={`font-semibold mx-2 ${
-          expanded || !expanded ? "text-black mb-4" : "text-white"
-        }`}
+        className={`sm:text-xl sm:leading-snug text-center ${
+          expanded || !expanded
+            ? "bg-white text-black"
+            : "neo-brutalism-blue text-white"
+        } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
+          expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
+        } relative`}
       >
+        <p
+          className={`font-semibold mx-2 ${
+            expanded ? "text-black mb-14" : "text-black"
+          }`}
+        >
           KDMI
         </p>
 
@@ -1245,17 +1262,19 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 10) {
     return (
       <div
-      className={`sm:text-xl sm:leading-snug text-center ${
-        expanded || !expanded ? "bg-white text-black" : "neo-brutalism-blue text-white"
-      } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
-        expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
-      } relative`}
-    >
-      <p
-        className={`font-semibold mx-2 ${
-          expanded || !expanded ? "text-black mb-4" : "text-white"
-        }`}
+        className={`sm:text-xl sm:leading-snug text-center ${
+          expanded || !expanded
+            ? "bg-white text-black"
+            : "neo-brutalism-blue text-white"
+        } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
+          expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
+        } relative`}
       >
+        <p
+          className={`font-semibold mx-2 ${
+            expanded ? "text-black mb-14" : "text-black"
+          }`}
+        >
           スッキリ!! Orange Water
         </p>
 
@@ -1318,7 +1337,8 @@ const HomeInfo = ({ currentStage }) => {
                         Project
                       </p>
                       <p>
-                      <span className="font-bold">Job Desk:</span> Photograph Assistant, Editor, Typewriter
+                        <span className="font-bold">Job Desk:</span> Photograph
+                        Assistant, Editor, Typewriter
                       </p>
                       <p>
                         <span className="font-bold">Project:</span> 2024
@@ -1363,17 +1383,19 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 11) {
     return (
       <div
-      className={`sm:text-xl sm:leading-snug text-center ${
-        expanded || !expanded ? "bg-white text-black" : "neo-brutalism-blue text-white"
-      } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
-        expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
-      } relative`}
-    >
-      <p
-        className={`font-semibold mx-2 ${
-          expanded || !expanded ? "text-black mb-4" : "text-white"
-        }`}
+        className={`sm:text-xl sm:leading-snug text-center ${
+          expanded || !expanded
+            ? "bg-white text-black"
+            : "neo-brutalism-blue text-white"
+        } py-4 px-8 mx-5 transition-all duration-500 ease-in-out rounded-md ${
+          expanded ? "max-w-[900px] py-6" : "max-w-[320px]"
+        } relative`}
       >
+        <p
+          className={`font-semibold mx-2 ${
+            expanded ? "text-black mb-10" : "text-black"
+          }`}
+        >
           One Dessert Many Memories
         </p>
 
@@ -1435,7 +1457,8 @@ const HomeInfo = ({ currentStage }) => {
                         <span className="font-bold">Client:</span> Madame Chang
                       </p>
                       <p>
-                        <span className="font-bold">Job Desk:</span> Photograph, Editor, IG Content Creator
+                        <span className="font-bold">Job Desk:</span> Photograph,
+                        Editor, IG Content Creator
                       </p>
                       <p>
                         <span className="font-bold">Project:</span> 2024
